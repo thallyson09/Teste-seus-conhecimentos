@@ -1,5 +1,5 @@
 # Teste-seus-conhecimentos
-Projeto foi feito para testar seus conhecimentos em derivados assuntos. Contendo 10 perguntas com 3 alternativas de respostas.
+Projeto foi feito para testar seus conhecimentos em derivados assuntos. Contendo 10 perguntas, com 3 alternativas de respostas.
 
 ## Tecnologias utilizadas
 
