@@ -1,95 +1,96 @@
 const perguntas = [
-    {
-      pergunta: "Qual é a finalidade do comando 'console.log()' em JavaScript?",
-      respostas: [
-        "Exibir uma mensagem de erro",
-        "Imprimir dados no console",
-        "Criar uma variável"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em comparações em JavaScript?",
-      respostas: [
-        "Comparação de valores sem considerar o tipo",
-        "Atribuição de valores",
-        "Comparação estrita de valores e tipos"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Como se declara uma variável em JavaScript?",
-      respostas: [
-        "let myVar;",
-        "const myVar = 10;",
-        "ambas as opções acima estão corretas"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é uma função em JavaScript?",
-      respostas: [
-        "Um tipo de dado",
-        "Um bloco de código reutilizável",
-        "Uma variável global"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a diferença entre 'let' e 'const' na declaração de variáveis?",
-      respostas: [
-        "Nenhuma, são sinônimos",
-        "let é usado para valores constantes, const para variáveis",
-        "let permite reatribuição, const cria variáveis imutáveis"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Um método de criptografia",
-        "Um modelo de objeto para manipular documentos HTML",
-        "Uma linguagem de programação"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se realiza uma iteração sobre os elementos de um array em JavaScript?",
-      respostas: [
-        "Usando a estrutura 'if-else'",
-        "Com a declaração 'switch'",
-        "Utilizando loops como 'for' ou 'forEach'"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "O que é o JSON em JavaScript?",
-      respostas: [
-        "Um método de formatação de texto",
-        "Uma linguagem de estilização",
-        "Um formato de dados leve e intercambiável"
-      ],
-      correta: 2
-    },
-    {
-      pergunta: "Qual é a diferença entre 'null' e 'undefined' em JavaScript?",
-      respostas: [
-        "São iguais, usados de forma intercambiável",
-        "'null' representa a ausência de valor, 'undefined' é atribuído explicitamente",
-        "Ambos representam valores vazios"
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Como se adiciona um evento a um elemento HTML usando JavaScript?",
-      respostas: [
-        "Apenas com CSS",
-        "Usando o atributo 'event'",
-        "Através do método 'addEventListener'"
-      ],
-      correta: 2
-    },
-  ];
+  {
+    pergunta: "Qual é o principal objetivo da musculação?",
+    respostas: [
+      "Perder peso",
+      "Ganhar flexibilidade",
+      "Ganhar massa muscular"
+    ],
+    correta: 2 // Resposta correta é "Ganhar massa muscular"
+  },
+  {
+    pergunta: "Qual é o grupo muscular principal trabalhado no agachamento?",
+    respostas: [
+      "Bíceps",
+      "Quadríceps",
+      "Tríceps"
+    ],
+    correta: 1 // Resposta correta é "Quadríceps"
+  },
+  {
+    pergunta: "Qual é o nome do exercício que trabalha os músculos peitorais?",
+    respostas: [
+      "Puxada",
+      "Agachamento",
+      "Supino"
+    ],
+    correta: 2 // Resposta correta é "Supino"
+  },
+  {
+    pergunta: "Qual é o exercício que mais trabalha os músculos das costas?",
+    respostas: [
+      "Desenvolvimento militar",
+      "Remada",
+      "Leg press"
+    ],
+    correta: 1 // Resposta correta é "Remada"
+  },
+  {
+    pergunta: "Qual é o principal nutriente para o crescimento muscular?",
+    respostas: [
+      "Carboidratos",
+      "Gorduras",
+      "Proteínas"
+    ],
+    correta: 2 // Resposta correta é "Proteínas"
+  },
+  {
+    pergunta: "Qual é o nome do exercício que trabalha os músculos abdominais?",
+    respostas: [
+      "Agachamento",
+      "Abdominal",
+      "Levantamento terra"
+    ],
+    correta: 1 // Resposta correta é "Abdominal"
+  },
+  {
+    pergunta: "Qual é o exercício que mais trabalha os músculos das pernas?",
+    respostas: [
+      "Agachamento",
+      "Rosca direta",
+      "Crucifixo"
+    ],
+    correta: 0 // Resposta correta é "Agachamento"
+  },
+  {
+    pergunta: "Qual é a principal função dos suplementos alimentares na musculação?",
+    respostas: [
+      "Substituir refeições",
+      "Aumentar a hidratação",
+      "Complementar a dieta"
+    ],
+    correta: 2 // Resposta correta é "Complementar a dieta"
+  },
+  {
+    pergunta: "Qual é o músculo principal trabalhado no exercício rosca direta?",
+    respostas: [
+      "Bíceps",
+      "Tríceps",
+      "Deltoides"
+    ],
+    correta: 0 // Resposta correta é "Bíceps"
+  },
+  {
+    pergunta: "Qual é o exercício que mais trabalha os músculos do peitoral?",
+    respostas: [
+      "Crucifixo",
+      "Flexão de braço",
+      "Supino inclinado"
+    ],
+    correta: 2 // Resposta correta é "Supino inclinado"
+  }
+];
+
 
 //selecionar os documentos
 const quiz = document.querySelector('#quiz')
